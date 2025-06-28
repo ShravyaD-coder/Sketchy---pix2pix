@@ -8,6 +8,7 @@ This project implements a modified version of **paired image-to-image translatio
 ## Dataset
 - The custom dataset is a mix of images from the **FERET** and **CUSF** datasets
 - Images were cropped and resized uniformly to maintain consistency
+- The code used for pre-processing is available for reference
 - The preprocessed dataset is available for direct use
 - Original training parameters provided in the dataset were modified to suit this project’s needs
 
