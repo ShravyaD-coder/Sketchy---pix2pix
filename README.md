@@ -1,7 +1,7 @@
 # Facial Sketch to Facial Image Generation using pix2pix
 
 ## Overview
-This project was implemented as part of my coursework for **Data Mining**. The goal was to develop a model capable of generating realistic facial images from facial sketches, regardless of race or gender. To achieve this, I leveraged the **pix2pix** model — a paired image-to-image translation approach — using a custom dataset created from images sourced from the **FERET** and **CUSF** datasets.
+This project was implemented as part of my coursework for **EN.553.602 Research and Design in Applied Mathematics: Data Mining**. The goal was to develop a model capable of generating realistic facial images from facial sketches, regardless of race or gender. To achieve this, I leveraged the **pix2pix** model — a paired image-to-image translation approach — using a custom dataset created from images sourced from the **FERET** and **CUSF** datasets.
 
 This project implements a modified version of **paired image-to-image translation pipeline** using the `pix2pix` model from the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository.
 
@@ -39,6 +39,13 @@ Please **follow the directions provided in the accompanying Colab notebook** to:
 - Train the pix2pix model
 - Generate results
 - Compute PSNR and SSIM metrics for evaluation
+
+---
+
+## Sample Results
+
+### Generated Face from Sketch
+![Sketch to Face Example](images/output.png)
 
 ---
 
