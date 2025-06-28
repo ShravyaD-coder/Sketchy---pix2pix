@@ -42,6 +42,39 @@ Please **follow the directions provided in the accompanying Colab notebook** to:
 
 ---
 
+## Libraries Used
+
+This project uses the following Python libraries:
+
+- **General processing & utilities**
+  - `os` — file and directory operations
+  - `zipfile` — handling zipped data files
+  - `re` — regular expressions
+  - `numpy` — numerical operations
+  - `tqdm` — progress bars for loops
+  - `glob` — finding files matching pathname patterns
+
+- **Visualization**
+  - `matplotlib` — plotting images and graphs
+
+- **Image processing & evaluation**
+  - `skimage` (`scikit-image`)
+    - `imread` — reading images
+    - `metrics.psnr` — Peak Signal-to-Noise Ratio
+    - `metrics.ssim` — Structural Similarity Index
+
+- **Machine Learning & Deep Learning**
+  - `torch` (PyTorch) — building and training GANs
+  - `torchvision` — image transforms & datasets
+  - `wandb` — experiment tracking and logging
+
+- **GAN & training support**
+  - `visdom` — live plotting of training losses
+  - `dominate` — generating HTML reports
+  - `opencv-python` (`cv2`) — for image processing tasks
+
+---
+
 ## Sample Results
 
 ### Generated Face from Sketch
